@@ -1,0 +1,4 @@
+# compiled objects (binaries are excluded per-exercise since C executables
+# have no fixed extension; add sources explicitly with `git add *.c *.h`)
+*.o
+*.out
