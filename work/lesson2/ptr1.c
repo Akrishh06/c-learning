@@ -8,8 +8,7 @@ int main() {
     printf("%d\n", *p);
 
     *p = 10;
-    printf("%p\n", &p);
-
+    printf("%d\n", x);
 
     return 0;
 }
