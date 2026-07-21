@@ -11,6 +11,8 @@ float average(int *arr, int n) {
 
     average = sum / n;
 
+    return average;
+
     }
 
 
