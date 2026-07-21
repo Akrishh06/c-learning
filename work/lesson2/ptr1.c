@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
@@ -7,7 +6,9 @@ int main() {
     int *p = &x;
     printf("%d\n", x);
     printf("%d\n", *p);
-    printf("%p\n", &x);
+
+    *p = 10;
+    printf("%p\n", &p);
 
 
     return 0;
