@@ -7,7 +7,7 @@ int main() {
     printf("%s", name);
     int lenn = strlen(name);
 
-    char copy[lenn] ;
+    char copy[lenn+1] ;
 
     strcpy(copy,name);
 
