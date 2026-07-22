@@ -24,7 +24,7 @@ int main() {
 
     average =  sum / count;
 
-    printf("average:%d", average);
+    printf("average:%f", average);
 
     fclose(fp);
     return 0;
