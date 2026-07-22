@@ -22,7 +22,7 @@ int main() {
 
     }
 
-    average =  sum / count;
+    average =  (float)sum / count;
 
     printf("average:%f", average);
 
