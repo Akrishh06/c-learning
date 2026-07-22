@@ -8,7 +8,7 @@ int main() {
 
     while (fgets(buf, sizeof(buf), fp) != NULL) {
 
-        sscanf("buf","buf" "%d , %d", &id ,  &mark);
+        sscanf(buf, "%d , %d", &id ,  &mark);
 
         printf("%d, %d", id, mark);
 
