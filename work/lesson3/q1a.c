@@ -11,12 +11,12 @@ int main() {
     while (fgets(buf, sizeof(buf), fp) != NULL) {
         int mark = atoi(buf);
         sum = sum + mark;
-        buf ++;
+        count ++;
     }
 
     fclose(fp);
 
-    float avg = sum / 256;
+    float avg = sum / count;
     printf("Average: %.2f\n", avg);
     return 0;
 }
